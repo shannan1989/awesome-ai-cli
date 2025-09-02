@@ -13,6 +13,14 @@
         "-y",
         "@iflow-mcp/uno-mcp-fixed"
       ]
+    },
+    "bilibili-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "iflow-mcp-bilibili-mcp-server",
+        "bilibili"
+      ]
     }
   }
 }
